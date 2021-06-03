@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     extip = {
-      source = "petems/extip"
+      source = "localproviders/petems/extip"
     }
   }
 }
