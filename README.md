@@ -178,20 +178,20 @@ go install
 - Create plugin directory. In the same terminal run:
 
 ```bash
-mkdir -p /vagrant/.terraform.d/plugins/petems/extip/0.1.2/linux_amd64
+mkdir -p /vagrant/.terraform.d/plugins/localproviders/petems/extip/0.1.2/linux_amd64
 ```
 
 Sample result
 
 ```bash
-$ mkdir -p /vagrant/.terraform.d/plugins/petems/extip/0.1.2/linux_amd64
+$ mkdir -p /vagrant/.terraform.d/plugins/localproviders/petems/extip/0.1.2/linux_amd64
 $
 ```
 
 - Copy plugin to the required path. Run:
 
 ```bash
-cp $GOPATH/bin/terraform-provider-extip /vagrant/.terraform.d/plugins/petems/extip/0.1.2/linux_amd64
+cp $GOPATH/bin/terraform-provider-extip /vagrant/.terraform.d/plugins/localproviders/petems/extip/0.1.2/linux_amd64
 ```
 
 - Change current directory to /vagrant. Run:
@@ -214,10 +214,10 @@ $ terraform init
 Initializing the backend...
 
 Initializing provider plugins...
-- Finding latest version of petems/extip...
+- Finding latest version of localproviders/petems/extip...
 - Finding latest version of hashicorp/null...
-- Installing petems/extip v0.1.2...
-- Installed petems/extip v0.1.2 (self-signed, key ID 1E81AE5659BD2F20)
+- Installing localproviders/petems/extip v0.1.2...
+- Installed localproviders/petems/extip v0.1.2 (self-signed, key ID 1E81AE5659BD2F20)
 - Installing hashicorp/null v3.1.0...
 - Installed hashicorp/null v3.1.0 (signed by HashiCorp)
 
