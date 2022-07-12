@@ -164,15 +164,14 @@ cd terraform-provider-extip
 - Build provider. Run:
 
 ```bash
-sudo make build
+sudo go install -buildvcs=false
 ```
 
 Simple result:
 
 ```bash
-$ sudo make build
-==> Checking that code complies with gofmt requirements...
-go install
+$ sudo go install -buildvcs=false
+$
 ```
 
 - Create plugin directory. In the same terminal run:
